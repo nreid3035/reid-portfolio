@@ -45,7 +45,7 @@ class Portfolio extends React.Component {
                 <a href="https://github.com/nreid3035/quiz-me-api" target="_blank" className="project-link" rel="noreferrer">
                   <button className="project-link-button">API Github Repository</button>
                 </a>
-                <a href="quiz-me.vercel.app" target="_blank" className="project-link" rel="noreferrer">
+                <a href="https://quiz-me.vercel.app" target="_blank" className="project-link" rel="noreferrer">
                   <button className="project-link-button">Quiz Me! Live</button>
                 </a>
               </div>
@@ -54,7 +54,7 @@ class Portfolio extends React.Component {
                 <div className="project-image-container">
                     <img src={recipeBreakdownHomePage} alt="project-screenshot"  className="project-image"/>
                 </div>
-                <p className="project-description">Recipe Breadown is an application that allows users to search for recipes by ingredients, or cuisine type
+                <p className="project-description">Recipe Breakdown is an application that allows users to search for recipes by ingredients, or cuisine type
                 A list of recipes are then displayed after an API call to the edamam recipe API. If the user selects a recipe, the ingredients will be listed as well as nutrition information on the recipe.
                 A link to the page with the recipe directions will be provided at the bottom if you wish to continue. 
                 Another API call is made to foodish when the home page loads.
