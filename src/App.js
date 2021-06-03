@@ -8,6 +8,7 @@ import headerLogo from './portfolio-resources/header-logo.png'
 import burgerMenu from './portfolio-resources/hamburger-menu.png'
 import githubLogo from './portfolio-resources/github-logo.png'
 import linkedInLogo from './portfolio-resources/linkedin-logo.png'
+import ConfirmationPage from './ConfirmationPage/ConfirmationPage'
 import './App.css'
 
 class App extends React.Component {
@@ -45,6 +46,10 @@ class App extends React.Component {
         <Route 
           path={'/contact'}
           component={Contact}/>
+
+        <Route 
+          path={'/confirmation'}
+          component={ConfirmationPage}/>
       </>
     )
   }

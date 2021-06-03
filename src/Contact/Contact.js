@@ -20,6 +20,7 @@ class Contact extends React.Component {
           console.log(error.text);
       });
       e.target.reset()
+      this.props.history.push('/confirmation')
     }
 
     render() {

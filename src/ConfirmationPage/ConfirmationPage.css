@@ -1,0 +1,51 @@
+.confirm-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 30px;
+    margin-bottom: 25px;
+}
+
+.checkmark-image-container {
+    width: 40%;
+    margin-bottom: 25px;
+}
+
+.confirm-text {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.confirm-home-link {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.confirm-home-button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #B99ED8;
+    margin-bottom: 25px;
+}
+
+@media (min-width: 450px) {
+    .confirm-title {
+        font-size: 36px;
+    }
+
+    .confirm-text {
+        font-size: 24px;
+    }
+
+    .confirm-home-button {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 575px) {
+    .checkmark-image-container {
+        width: 25%;
+    }
+}
