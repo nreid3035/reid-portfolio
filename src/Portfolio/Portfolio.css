@@ -36,7 +36,7 @@
 
 .project-title {
     font-family: 'Playfair Display SC', serif;
-    font-size: 24px;
+    font-size: 28px;
 }
 
 .stack-title {
@@ -77,7 +77,7 @@
 
 .project-description {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     text-align: center;
     width: 80%;
 }
@@ -96,5 +96,39 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     margin-bottom: 10px;
+}
+
+@media (min-width: 500px) {
+    .project-description {
+        font-size: 20px
+    }
+
+    .stack-title {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 600px) {
+    .stack-item {
+        font-size: 22px;
+    }
+
+    .project-link-button {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 650px) {
+    .project-title {
+        font-size: 32px;
+    }
+
+    .stack-title {
+        font-size: 32px;
+    }
+
+    .project-description {
+        font-size: 24px;
+    }
 }
 

@@ -6,11 +6,13 @@
 .about-title {
     font-family: 'Playfair Display SC', serif;
     font-size: 36px;
+    margin-top: 10px;
+    margin-bottom: 0px;
 }
 
 .about-para {
     font-family: 'Raleway', sans-serif;
-    font-size: 18px;
+    font-size: 16px;
     width: 80%;
     text-align: center;
 }
@@ -28,4 +30,26 @@
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
     
+}
+
+@media (min-width: 500px) {
+    .about-para {
+        font-size: 20px;
+    }
+}
+
+@media (min-width: 600px) {
+    .portrait-container {
+        width: 50%;
+    }
+
+    .about-contact-button {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 650px) {
+    .about-para {
+        font-size: 24px;
+    }
 }

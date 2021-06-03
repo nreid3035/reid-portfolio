@@ -13,7 +13,7 @@
     text-align: center;
     width: 100%;
     font-family: 'Raleway', sans-serif;
-    font-size: 24px;
+    font-size: 20px;
 }
 
 .home-content {
@@ -30,7 +30,7 @@
     margin-block-end: 0px;
     padding-inline-start: 0px;
     font-family: 'Raleway', sans-serif;
-    font-size: 30px;
+    font-size: 28px;
     margin: 0px;
     padding: 15px 45px;
     align-self: center;
@@ -77,4 +77,29 @@
     border-radius: 10px;
     font-family: 'Raleway', sans-serif;
     font-size: 18px;
+}
+
+@media (min-width: 450px) {
+    .banner-container {
+        width: 70%;
+    }
+}
+
+@media (min-width: 500px) {
+    .intro-para {
+        font-size: 24px;
+    }
+
+}
+
+@media (min-width: 600px) {
+    .home-button {
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 800px) {
+    .banner-container {
+        width: 50%;
+    }
 }

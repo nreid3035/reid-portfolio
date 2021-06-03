@@ -40,13 +40,13 @@ class Portfolio extends React.Component {
                     <li className="stack-item">CSS</li>
                 </ul>
                 <a href="https://github.com/nreid3035/quiz-me" target="_blank" className="project-link" rel="noreferrer">
-                  <button className="project-link-button">Github Repository Link</button>
+                  <button className="project-link-button">Github Repository</button>
                 </a>
                 <a href="https://github.com/nreid3035/quiz-me-api" target="_blank" className="project-link" rel="noreferrer">
-                  <button className="project-link-button">API Github Repository Link</button>
+                  <button className="project-link-button">API Github Repository</button>
                 </a>
                 <a href="quiz-me.vercel.app" target="_blank" className="project-link" rel="noreferrer">
-                  <button className="project-link-button">Quiz Me! Live Link</button>
+                  <button className="project-link-button">Quiz Me! Live</button>
                 </a>
               </div>
               <div className="project-container">
@@ -67,10 +67,10 @@ class Portfolio extends React.Component {
                     <li className="stack-item">CSS</li>
                 </ul>
                 <a href="https://github.com/nreid3035/recipe-breakdown" target="_blank" className="project-link" rel="noreferrer">
-                  <button className="project-link-button">Github Repository Link</button>
+                  <button className="project-link-button">Github Repository</button>
                 </a>
                 <a href="https://nreid3035.github.io/recipe-breakdown/" target="_blank" className="project-link" rel="noreferrer">
-                  <button className="project-link-button">Recipe Breakdown Live Link</button>
+                  <button className="project-link-button">Recipe Breakdown Live</button>
                 </a>
               </div>
             </div>

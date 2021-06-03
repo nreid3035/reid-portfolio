@@ -70,7 +70,7 @@ class App extends React.Component {
           </div>
           <div className="header-labels-container">
             <h1 className="header-label" id="full-name">Nicholas Reid</h1>
-            <h2 className="header-label" id="job-title">Junior Web Developer</h2>
+            <h2 className="header-label" id="job-title">Web Developer</h2>
           </div>
           <div className="image-container" id="burger-container" onClick={() => this.handleHamburgerClick()}>
             <img src={burgerMenu} alt="hmc"/>
@@ -82,21 +82,22 @@ class App extends React.Component {
         {this.renderMainRoutes()}
       </main>
       <footer>
-        <div className="social-links">
-          <div className="link-logo-container">
-            <a href="https://github.com/nreid3035" target="_blank" rel="noreferrer">
-              <img src={githubLogo} alt="github-logo"/>
-            </a>
-          </div>
-          <div className="link-logo-container">
-            <a href="https://www.linkedin.com/in/nicholas-reid845/" target="_blank" rel="noreferrer">
-              <img src={linkedInLogo} alt="linkedin-logo"/>
-            </a>
-          </div>
+        <div className="link-logo-container">
+          <a href="https://github.com/nreid3035" target="_blank" rel="noreferrer" className="social-link">
+            <img src={githubLogo} alt="github-logo" className="social-image"/>
+          </a>
+        </div>        
+        <div className="credits">
+          <div className="photo-credit">Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noreferrer">www.flaticon.com</a></div>
+          <div className="photo-credit">Photo by <a href="https://unsplash.com/@mfrazi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Fahrul Razi</a> on <a href="https://unsplash.com/s/photos/code-text?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Unsplash</a></div>
+          <h5 className="copyright">&copy; Nicholas Reid</h5>
         </div>
-        <div>Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noreferrer">www.flaticon.com</a></div>
-        <div>Photo by <a href="https://unsplash.com/@mfrazi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Fahrul Razi</a> on <a href="https://unsplash.com/s/photos/code-text?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Unsplash</a></div>
-        <h5 className="copyright">&copy; Nicholas Reid</h5>
+        <div className="link-logo-container">
+            <a href="https://www.linkedin.com/in/nicholas-reid845/" target="_blank" rel="noreferrer" className="social-link">
+              <img src={linkedInLogo} alt="linkedin-logo" className="social-image"/>
+            </a>  
+        </div>
+
       </footer>
     </div>
 
