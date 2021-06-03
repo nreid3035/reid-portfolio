@@ -15,7 +15,7 @@ class Home extends React.Component {
         return (
             <>
               <div className="banner-container">
-                  <img src={bannerImage} alt="banner-image" className="banner-image"/>
+                  <img src={bannerImage} alt="banner" className="banner-image"/>
               </div>
               <div className="home-content">
                   <p className="intro-para">Hello, I am Nicholas Reid and I am a Junior Web Developer out of Poughkeepsie, New York. Below are my relevant skills

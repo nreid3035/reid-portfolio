@@ -15,7 +15,7 @@ class About extends React.Component {
         return (
             <>
               <div className="portrait-container">
-                  <img src={portraitImage} alt="portrait-image" className="portrait-image"/>
+                  <img src={portraitImage} alt="portrait" className="portrait-image"/>
               </div>
                 <h2 className="about-title">About Me</h2>
                 <p className="about-para">

@@ -66,7 +66,7 @@ class App extends React.Component {
       <header className="App-header">
         <div className="non-nav-header">
           <div className="image-container" id="logo-container">
-            <img src={headerLogo} alt="logo-image" className="logo-image"/>
+            <img src={headerLogo} alt="logo" className="logo-image"/>
           </div>
           <div className="header-labels-container">
             <h1 className="header-label" id="full-name">Nicholas Reid</h1>
@@ -84,18 +84,18 @@ class App extends React.Component {
       <footer>
         <div className="social-links">
           <div className="link-logo-container">
-            <a href="https://github.com/nreid3035" target="_blank">
+            <a href="https://github.com/nreid3035" target="_blank" rel="noreferrer">
               <img src={githubLogo} alt="github-logo"/>
             </a>
           </div>
           <div className="link-logo-container">
-            <a href="https://www.linkedin.com/in/nicholas-reid845/" target="_blank">
+            <a href="https://www.linkedin.com/in/nicholas-reid845/" target="_blank" rel="noreferrer">
               <img src={linkedInLogo} alt="linkedin-logo"/>
             </a>
           </div>
         </div>
-        <div>Icons made by <a href="https://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a></div>
-        <div>Photo by <a href="https://unsplash.com/@mfrazi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Fahrul Razi</a> on <a href="https://unsplash.com/s/photos/code-text?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a></div>
+        <div>Icons made by <a href="https://www.freepik.com" title="Freepik" target="_blank" rel="noreferrer">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon" target="_blank" rel="noreferrer">www.flaticon.com</a></div>
+        <div>Photo by <a href="https://unsplash.com/@mfrazi?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Fahrul Razi</a> on <a href="https://unsplash.com/s/photos/code-text?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText" target="_blank" rel="noreferrer">Unsplash</a></div>
         <h5 className="copyright">&copy; Nicholas Reid</h5>
       </footer>
     </div>

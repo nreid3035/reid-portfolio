@@ -29,11 +29,11 @@ class Contact extends React.Component {
               <p className="form-intro">Please fill out the form below and I will get back to you by email promptly</p>
               <form className="contact-form" onSubmit={(e) => this.submitContactForm(e)}>
                   <label htmlFor="from_name" className="contact-label">Name</label>
-                  <input type="text" name="from_name" id="name" className="contact-input"/>
+                  <input type="text" name="from_name" id="name" className="contact-input" required/>
                   <label htmlFor="from_email" className="contact-label">Email</label>
-                  <input type="text" name="from_email" id="email" className="contact-input"/>
+                  <input type="text" name="from_email" id="email" className="contact-input" required/>
                   <label htmlFor="message" className="contact-label">Message</label>
-                  <textarea className="contact-textarea" name="message">Type here...</textarea> 
+                  <textarea className="contact-textarea" name="message" placeholder="Type here..." required/>
                   <input type="submit" className="contact-submit"/>
               </form>
             </>
