@@ -1,0 +1,31 @@
+.portrait-container {
+    width: 60%;
+    margin-top: 30px;
+}
+
+.about-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 36px;
+}
+
+.about-para {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    width: 80%;
+    text-align: center;
+}
+
+.about-contact-link {
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.about-contact-button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #B99ED8;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    
+}

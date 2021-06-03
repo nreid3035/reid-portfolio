@@ -1,0 +1,100 @@
+.portfolio-container {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #4A5759
+    
+}
+
+.project-container {
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    border: 1px solid black;
+    padding: 10px;
+    align-items: center;
+    margin-bottom: 25px;
+    background-color: #BEBEBE; 
+    border-radius: 2px;
+}
+
+.project-image-container {
+    width: 50%;
+    margin-bottom: 15px;
+}
+
+.project-image {
+    width: 100%
+}
+
+.portfolio-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 36px;
+    color: white
+}
+
+.project-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 24px;
+}
+
+.stack-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 20px;
+}
+
+.stack-list {
+    width: 65%;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    list-style-type: none;
+    padding-inline-start: 0px;
+    margin: 0;
+    padding: 10px 25px;
+    text-align: center;
+    border: 1px solid black;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 25px;
+    background-color: #4A5759;
+    border-radius: 5px;
+
+}
+
+.stack-item {
+    width: 80%;
+    border: 1px solid black;
+    padding: 10px 0px;
+    background-color: #FF5964;
+    margin-bottom: 10px;
+    border-radius: 5px;
+}
+
+.project-description {
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    text-align: center;
+    width: 80%;
+}
+
+.project-link {
+    width: 80%;
+    display: flex;
+    justify-content: center;
+}
+
+.project-link-button {
+    width: 100%;
+    padding: 10px 15px;
+    border-radius: 10px;
+    background-color: #B99ED8; 
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+

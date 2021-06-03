@@ -1,38 +1,149 @@
+/*
+FONTS
+    font-family: 'Mate SC', serif;
+    font-family: 'Playfair Display SC', serif;
+    font-family: 'Raleway', sans-serif;
+
+COLOR PALLETE
+    background-color: #BEBEBE; 
+    background-color: #7F87E2;  
+    background-color: #B99ED8;
+    background-color: #FF5964
+    background-color: #4A5759
+
+    // Grey (background)
+    // Blueish Purple (header/footer)
+    // Purple (accent)
+    // Firey Rose (list items)
+    // Dark Space Sparkle (list background)
+
+*/
+
+
+
+
+a {
+    text-decoration: none;
+}
+
+a:hover {
+    opacity: 0.6;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
 .App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+    width: 100%;
 }
 
 .App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+    width: 100%;
+    height: 15%;
+    background-color: #7F87E2
 }
 
-.App-link {
-  color: #61dafb;
+.non-nav-header {
+    
+    display: flex;
+    align-items: center;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+#full-name {
+    font-family: 'Mate SC', serif;
+    
+}
+#logo-container {
+    width: 50px;
+    height: 50px;
+    margin: 15px;
+}
+
+.header-labels-container {
+    width: auto;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    
+}
+
+.header-label {
+    margin: 0px;
+}
+
+#job-title {
+    font-family: 'Playfair Display SC', serif;
+    font-style: italic;
+}
+
+#burger-container {
+    width: 40px;
+    height: 40px;
+    margin-left: 75px;
+}
+
+.navigation {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.nav-link {
+    width: 100%;
+    border: 1px solid black;
+    height: 44px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.nav-link:hover {
+    background-color: #B99ED8;
+    opacity: 1;
+}
+
+.nav-text {
+    width: 100%;
+    font-size: 20px;
+    color: black;
+}
+
+main {
+    margin-bottom: 150px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #BEBEBE;
+}
+
+footer {
+    background-color: #7F87E2;
+    width: 100%;
+    height: 150px;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.social-links {
+    margin-top: 15px;
+    width: 80%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.link-logo-container {
+    width: 44px;
+}
+
+.copyright {
+    margin-top: 10px
 }

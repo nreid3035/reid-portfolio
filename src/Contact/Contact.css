@@ -1,0 +1,60 @@
+.contact-title {
+    font-family: 'Playfair Display SC', serif;
+    font-size: 36px;
+}
+
+.form-intro {
+    width: 80%;
+    text-align: center;
+    font-family: 'Raleway', sans-serif;
+    font-size: 22px;
+}
+
+form {
+   width: 80%; 
+   display: flex;
+   flex-direction: column;
+   border: 1px solid black;
+   padding: 30px 30px;
+   margin-bottom: 25px;
+   background-color: #4A5759;
+   border-radius: 5px;
+}
+
+.contact-label {
+    padding: 5px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 18px;
+    color: white;
+}
+
+.contact-input {
+    padding: 8px 15px;
+    margin-bottom: 10px;
+    background-color: #bebebe;
+    border-radius: 5px;
+}
+
+.contact-textarea {
+    height: 100px;
+    padding: 10px 15px;
+    font-family: 'Raleway', sans-serif;
+    font-size: 14px;
+    margin-bottom: 25px;
+    background-color: #bebebe;
+    border-radius: 5px;
+}
+
+.contact-submit {
+    font-family: 'Raleway', sans-serif;
+    width: 100%;
+    padding: 10px 15px;
+    background-color: #B99ED8; 
+    border-radius: 10px;
+    font-size: 18px;
+}
+
+.contact-submit:hover {
+    background-color: #FF5964
+
+}
